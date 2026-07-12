@@ -1,10 +1,12 @@
 # Train a Small DNA Language Model — Beginner Tutorial
 
-A complete, hands-on tutorial for training a DNA language model from scratch on **real genome data**. Built for people new to machine learning: every concept is explained the first time it appears.
+I think this technology is fascinating. I want to explore modeling biological sequences with the recent novel architectures. I felt like I need to start small here. I put this together in a tutorial format to help me easily retrace some concepts when I need to. I'd be glad to get some feedback or help on some helpful resources to keep exploring.
+
+A hands-on tutorial for training a DNA language model from scratch on **real genome data**. Built for people new to machine learning: every concept is explained (i hope :)) the first time it appears.
 
 ## What's inside
 
-| File | What it is |
+| File | What it is | (of course, I will update this as the project grows)
 |------|-----------|
 | `dna_language_model_tutorial.ipynb` | The main event. A runnable notebook that downloads real genomes, builds a Transformer from scratch in PyTorch, trains it, evaluates it, and generates new DNA. Explanations interleaved with code. |
 | `NOTES.md` | Plain-language companion: concept deep-dives + a full glossary. Read alongside the notebook or on its own. |
