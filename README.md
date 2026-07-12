@@ -5,7 +5,25 @@ I think this technology is fascinating. I want to explore modeling biological se
 
 A hands-on tutorial for training a DNA language model from scratch on **real genome data**. Built for people new to machine learning: every concept is explained (i hope :)) the first time it appears.
 
-## What's inside
+
+## Summary
+
+### Transformer Architecture
+The full DNAGPT stack: embeddings → N× transformer blocks (causal self-attention + feed-forward) → language model head.
+
+![Transformer Architecture](docs/figures/transformer_architecture.png)
+
+### Training — Loss & Perplexity Curves
+Loss and perplexity dropping below both baselines across 3 000 training iterations.
+
+![Loss and Perplexity Curves](docs/figures/loss_perplexity.png)
+
+### Evaluation — Real vs Generated 3-mer Frequencies
+Side-by-side 3-mer frequency comparison between real genome sequence and model-generated DNA (correlation ≈ 0.96).
+
+![3-mer Frequency Comparison](docs/figures/kmer_comparison.png)
+
+## What's inside so far
 
 | File | What it is | 
 |------|-----------|
@@ -45,23 +63,6 @@ Then run cells top to bottom.
 ## Expected result
 
 Validation **perplexity** drops from ~4.9 to about **3.7**, beating both the uniform baseline (4.0) and the base-composition baseline (~3.87) — demonstrating the model learned real dependencies between bases, not just letter frequencies. Generated DNA reproduces real 3-mer frequencies with correlation ~0.7–0.8.
-
-## Figures
-
-### Transformer Architecture
-The full DNAGPT stack: embeddings → N× transformer blocks (causal self-attention + feed-forward) → language model head.
-
-![Transformer Architecture](docs/figures/transformer_architecture.png)
-
-### Training — Loss & Perplexity Curves
-Loss and perplexity dropping below both baselines across 3 000 training iterations.
-
-![Loss and Perplexity Curves](docs/figures/loss_perplexity.png)
-
-### Evaluation — Real vs Generated 3-mer Frequencies
-Side-by-side 3-mer frequency comparison between real genome sequence and model-generated DNA (correlation ≈ 0.96).
-
-![3-mer Frequency Comparison](docs/figures/kmer_comparison.png)
 
 ## A note on the data
 
