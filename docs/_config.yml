@@ -1,0 +1,4 @@
+# GitHub Pages config
+# No Jekyll theme needed — the site is plain HTML/CSS.
+# This file suppresses the default theme and disables Jekyll processing.
+theme: null
