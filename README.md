@@ -1,5 +1,6 @@
 # Train a Small DNA Language Model — Beginner Tutorial
 
+
 I think this technology is fascinating. I want to explore modeling biological sequences with the recent novel architectures. I felt like I need to start small here. I put this together in a tutorial format to help me easily retrace some concepts when I need to. I'd be glad to get some feedback or help on some helpful resources to keep exploring.
 
 A hands-on tutorial for training a DNA language model from scratch on **real genome data**. Built for people new to machine learning: every concept is explained (i hope :)) the first time it appears.
