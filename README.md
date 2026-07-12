@@ -7,11 +7,13 @@ A hands-on tutorial for training a DNA language model from scratch on **real gen
 
 ## What's inside
 
-| File | What it is | (of course, I will update this as the project grows)
+| File | What it is | 
 |------|-----------|
 | `dna_language_model_tutorial.ipynb` | The main event. A runnable notebook that downloads real genomes, builds a Transformer from scratch in PyTorch, trains it, evaluates it, and generates new DNA. Explanations interleaved with code. |
 | `NOTES.md` | Plain-language companion: concept deep-dives + a full glossary. Read alongside the notebook or on its own. |
 | `diagrams/` | The figures used throughout (pipeline, tokenization, attention mask, Transformer block, plus real result plots). |
+
+(of course, I will update this as the project grows)
 
 ## What you'll actually do
 
